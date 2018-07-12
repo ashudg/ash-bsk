@@ -1,10 +1,9 @@
-
 {
   "engines": {
-    "composer": "^0.19.8"
+    "composer": "^0.19.5"
   },
   "name": "global-citizens-network",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The goal of this pattern is to build a 3-member blockchain application using the IBM Blockchain Platform, consisting of the following entities: an organization representing a government entity, an organization representing Global Citizen(i.e. NGO ) focused on the provision of aid, and  an organization representing Aid organization receiving the funds from governments for the humanitarian causes",
   "scripts": {
     "prepublish": "composer archive create -t dir -n .",
